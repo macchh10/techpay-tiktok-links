@@ -5,6 +5,8 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>techpay__ tools</title>
 <meta name="description" content="Tools that make or save money for small businesses and side hustles.">
+<link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
 <style>
   :root { color-scheme: dark; --bg:#0B0D11; --card:#151922; --line:#232937;
            --fg:#EAF0F7; --muted:#95A1B3; --accent:#3DDC97; }
@@ -24,15 +26,28 @@
   .card p { margin:6px 0 10px; color:var(--muted); }
   .go { font-size:14px; color:var(--accent); }
   .empty { background:none; border:1px dashed var(--line); border-radius:14px; padding:20px; }
+  header { display:flex; align-items:center; gap:14px; margin:0 0 6px; }
+  header img { width:56px; height:56px; border-radius:50%; background:#fff; }
+  h2 { font-size:18px; margin:36px 0 8px; }
+  .about p { color:var(--muted); margin:0 0 10px; }
   footer { margin-top:36px; color:var(--muted); font-size:13px; }
   footer a { color:var(--accent); }
 </style>
 </head>
 <body>
 <main>
-  <h1>@techpay__</h1>
+  <header><img src="apple-touch-icon.png" alt="techpay logo"><h1>@techpay__</h1></header>
   <p class="sub">Tools that make or save money for small businesses and side hustles. Every tool from the videos, newest first.</p>
+  <h2>Tools from the videos</h2>
   <ul>
+      <li class="card">
+        <a href="https://github.com/TryGhost/Ghost" rel="noopener">
+          <span class="name">Ghost</span>
+          <span class="tag">PRESS</span>
+          <p>Open-source publishing with paid memberships and newsletters, no cut of your revenue.</p>
+          <span class="go">Open on GitHub &rsaquo;</span>
+        </a>
+      </li>
       <li class="card">
         <a href="https://github.com/calcom/cal.diy" rel="noopener">
           <span class="name">Cal.diy</span>
@@ -42,8 +57,14 @@
         </a>
       </li>
   </ul>
+  <section class="about">
+    <h2>About techpay</h2>
+    <p>techpay is a small publishing project that makes short videos about software tools people can use to earn or save money. Each video covers one tool, tested before it goes out, and this page keeps the real link to every tool we have shown.</p>
+    <p>The videos are produced by the account owner and uploaded to the @techpay__ TikTok account through TikTok's Content Posting API. The app only posts to that one account. It does not read viewer data, messages or activity.</p>
+    <p>Questions or a tool you want covered? Message <a href="https://tiktok.com/@techpay__">@techpay__</a> on TikTok.</p>
+  </section>
   <footer>
-    <a href="https://tiktok.com/@techpay__">TikTok</a> · updated Sep 28, 2026
+    <a href="https://tiktok.com/@techpay__">TikTok</a> · <a href="privacy.html">Privacy policy</a> · <a href="terms.html">Terms of service</a> · updated Oct 13, 2026
   </footer>
 </main>
 </body>
